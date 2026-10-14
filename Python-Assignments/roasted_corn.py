@@ -6,11 +6,6 @@ class roasted_corn:
             count += 1
         return count
 
-    def first_and_last_two(text):
-        if self.string_length(text) < 2:
-            return ""
-        return text[:2] + text[-2:]
-
     def add_ing(text):
         if self.string_length(text) < 3:
             return text

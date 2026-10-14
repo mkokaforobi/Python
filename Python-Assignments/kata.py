@@ -1,23 +1,14 @@
 class Kata:
-<<<<<<< HEAD
- 
-    def isEven(integer):
-=======
 
  
-    def isEven(self, integer):
->>>>>>> 5d65ad1 (Update Python assignments)
+       def isEven(integer):
         if integer % 2 == 0:
             return True
         else:
             return False
 
 
-<<<<<<< HEAD
-    def isPrimeNumber(integer):
-=======
-    def isPrimeNumber(self, integer):
->>>>>>> 5d65ad1 (Update Python assignments)
+        def isPrimeNumber(integer):
         if integer < 2:
             return False
 
@@ -29,11 +20,7 @@ class Kata:
 
 
 
-<<<<<<< HEAD
-    def subtract(integer1, integer2):
-=======
-    def subtract(self, integer1, integer2):
->>>>>>> 5d65ad1 (Update Python assignments)
+      def subtract(integer1, integer2):
         if integer1 > integer2:
             return integer1 - integer2
         else:
@@ -41,23 +28,14 @@ class Kata:
 
 
 
-<<<<<<< HEAD
     def divide(integer1, integer2):
-=======
-    def divide(self, integer1, integer2):
->>>>>>> 5d65ad1 (Update Python assignments)
         if integer2 == 0:
             return 0
 
         return integer1 / integer2
 
 
-  
-<<<<<<< HEAD
     def factorOf(integer):
-=======
-    def factorOf(self, integer):
->>>>>>> 5d65ad1 (Update Python assignments)
         count = 0
 
         for factor in range(1, integer + 1):
@@ -67,12 +45,7 @@ class Kata:
         return count
 
 
-  
-<<<<<<< HEAD
     def isSquare(integer):
-=======
-    def isSquare(self, integer):
->>>>>>> 5d65ad1 (Update Python assignments)
         number = 0
 
         while number * number <= integer:
@@ -84,12 +57,8 @@ class Kata:
         return False
 
 
-  
-<<<<<<< HEAD
-    def isPalindrome( integer):
-=======
-    def isPalindrome(self, integer):
->>>>>>> 5d65ad1 (Update Python assignments)
+
+    def isPalindrome(integer):
         originalNumber = integer
         reversedNumber = 0
 
@@ -102,11 +71,7 @@ class Kata:
 
 
 
-<<<<<<< HEAD
-    def factorialOf( integer):
-=======
-    def factorialOf(self, integer):
->>>>>>> 5d65ad1 (Update Python assignments)
+    def factorialOf(integer):
         factorial = 1
 
         for number in range(1, integer + 1):
@@ -116,9 +81,6 @@ class Kata:
 
 
 
-<<<<<<< HEAD
+
     def squareOf(integer):
-=======
-    def squareOf(self, integer):
->>>>>>> 5d65ad1 (Update Python assignments)
         return integer * integer

@@ -5,7 +5,7 @@ def go_home():
 
 def phone_book_options_menu():
     while True:
-        print("""
+        print(""" 
 --- Options ---
 1. Memory in use
 2. Type of view
@@ -23,7 +23,7 @@ def phone_book_options_menu():
                 return go_home()
             case "0":
                 print("\nGoing back to Phone Book...")
-                return
+                   
             case _:
                 print("\nInvalid choice")
 
@@ -67,7 +67,7 @@ def phone_book_menu():
                 return go_home()
             case "0":
                 print("\nGoing back to Main Menu...")
-                return
+                
             case _:
                 print("\nInvalid choice")
 
@@ -92,7 +92,7 @@ def message_set_menu():
                 return go_home()
             case "0":
                 print("\nGoing back to Message Settings...")
-                return
+                
             case _:
                 print("\nInvalid choice")
 
@@ -117,7 +117,7 @@ def message_common_menu():
                 return go_home()
             case "0":
                 print("\nGoing back to Message Settings...")
-                return
+                
             case _:
                 print("\nInvalid choice")
 
@@ -146,7 +146,7 @@ def message_settings_menu():
                 return go_home()
             case "0":
                 print("\nGoing back to Messages...")
-                return
+                
             case _:
                 print("\nInvalid choice")
 
@@ -188,7 +188,7 @@ def messages_menu():
                 return go_home()
             case "0":
                 print("\nGoing back to Main Menu...")
-                return
+                
             case _:
                 print("\nInvalid choice")
 
@@ -219,7 +219,7 @@ def call_settings_menu():
                 return go_home()
             case "0":
                 print("\nGoing back to Settings...")
-                return
+                
             case _:
                 print("\nInvalid choice")
 
@@ -248,7 +248,7 @@ def phone_settings_menu():
                 return go_home()
             case "0":
                 print("\nGoing back to Settings...")
-                return
+                
             case _:
                 print("\nInvalid choice")
 
@@ -279,7 +279,7 @@ def security_settings_menu():
                 return go_home()
             case "0":
                 print("\nGoing back to Settings...")
-                return
+                
             case _:
                 print("\nInvalid choice")
 
@@ -315,7 +315,7 @@ def settings_menu():
                 return go_home()
             case "0":
                 print("\nGoing back to Main Menu...")
-                return
+                
             case _:
                 print("\nInvalid choice")
 
@@ -342,7 +342,7 @@ def music_menu():
                 return go_home()
             case "0":
                 print("\nGoing back to Main Menu...")
-                return
+                
             case _:
                 print("\nInvalid choice")
 
@@ -373,7 +373,7 @@ def clock_menu():
                 return go_home()
             case "0":
                 print("\nGoing back to Main Menu...")
-                return
+                
             case _:
                 print("\nInvalid choice")
 
